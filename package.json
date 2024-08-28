@@ -1,0 +1,17 @@
+{
+  "name": "livechat",
+  "version": "1.0.0",
+  "description": "Sharpening my JavaScript and Socket.io skills for the uppcoming coursestart at SALT",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
