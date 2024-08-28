@@ -4,7 +4,7 @@
   "description": "Sharpening my JavaScript and Socket.io skills for the uppcoming coursestart at SALT",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+     "devStart": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
