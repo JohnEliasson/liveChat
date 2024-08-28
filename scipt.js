@@ -3,6 +3,10 @@ const messageContainer = document.getElementById('message-container')
 const messageForm = document.getElementById('send-container')
 const messageInput = document.getElementById('message-input')
 
+let userName = prompt('What is your name?')
+socket.emit('new-user', userName)
+
+
 
 socket.on('chat-message', data => {
     appendMessage(data)
@@ -20,3 +24,9 @@ const appendMessage = (message) => {
     messageElement.innerText = message
     messageContainer.append(messageElement)
 }
+
+
+
+    appendMessage('Welcome ' + userName)    
+
+
